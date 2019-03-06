@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/jordan-massingill/PupperIQ#readme",
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    
   },
   "dependencies": {
+    "nodemon": "^1.18.10",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "helmet": "^3.15.1",
