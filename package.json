@@ -1,0 +1,30 @@
+{
+  "name": "PupperIQ",
+  "version": "1.0.0",
+  "description": "A pet adoption tool that uses a personality quiz to pair puppers with new owners",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordan-massingill/PupperIQ.git"
+  },
+  "keywords": [],
+  "author": "Jordan Massingill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordan-massingill/PupperIQ/issues"
+  },
+  "homepage": "https://github.com/jordan-massingill/PupperIQ#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  }
+}
