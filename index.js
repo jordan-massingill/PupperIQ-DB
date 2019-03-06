@@ -70,6 +70,6 @@ server.delete('/puppers/:id', (req, res) => {
   })
 })
 
-server.listen(8000, () => {
+server.listen(process.env.PORT || 8000, () => {
   console.log("Server listening on 8K");
 })
