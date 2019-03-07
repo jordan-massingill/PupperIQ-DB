@@ -7,7 +7,7 @@ const dbConfig = require('./knexfile');
 const db = knex(dbConfig.development);
 const server = express();
 
-server.use(cors({ origin: "https://pupperiq.netlify.com/", credentials: true }));
+server.use(cors({ origin: "https://pupperiq.netlify.com", credentials: true }));
 server.use(express.json());
 server.use(helmet());
 
